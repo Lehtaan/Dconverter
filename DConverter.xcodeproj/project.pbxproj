@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183ACE841B8A391500BF175F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACE831B8A391500BF175F /* AppDelegate.m */; };
+		183ACE861B8A391500BF175F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACE851B8A391500BF175F /* main.m */; };
+		183ACE881B8A391500BF175F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183ACE871B8A391500BF175F /* Images.xcassets */; };
+		183ACE8B1B8A391500BF175F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183ACE891B8A391500BF175F /* MainMenu.xib */; };
+		183ACE971B8A391500BF175F /* DConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACE961B8A391500BF175F /* DConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183ACE911B8A391500BF175F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183ACE751B8A391500BF175F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183ACE7C1B8A391500BF175F;
+			remoteInfo = DConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183ACE7D1B8A391500BF175F /* DConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183ACE811B8A391500BF175F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183ACE821B8A391500BF175F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183ACE831B8A391500BF175F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183ACE851B8A391500BF175F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183ACE871B8A391500BF175F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		183ACE8A1B8A391500BF175F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		183ACE901B8A391500BF175F /* DConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183ACE951B8A391500BF175F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183ACE961B8A391500BF175F /* DConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183ACE7A1B8A391500BF175F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183ACE8D1B8A391500BF175F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183ACE741B8A391500BF175F = {
+			isa = PBXGroup;
+			children = (
+				183ACE7F1B8A391500BF175F /* DConverter */,
+				183ACE931B8A391500BF175F /* DConverterTests */,
+				183ACE7E1B8A391500BF175F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183ACE7E1B8A391500BF175F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183ACE7D1B8A391500BF175F /* DConverter.app */,
+				183ACE901B8A391500BF175F /* DConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183ACE7F1B8A391500BF175F /* DConverter */ = {
+			isa = PBXGroup;
+			children = (
+				183ACE821B8A391500BF175F /* AppDelegate.h */,
+				183ACE831B8A391500BF175F /* AppDelegate.m */,
+				183ACE871B8A391500BF175F /* Images.xcassets */,
+				183ACE891B8A391500BF175F /* MainMenu.xib */,
+				183ACE801B8A391500BF175F /* Supporting Files */,
+			);
+			path = DConverter;
+			sourceTree = "<group>";
+		};
+		183ACE801B8A391500BF175F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183ACE811B8A391500BF175F /* Info.plist */,
+				183ACE851B8A391500BF175F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183ACE931B8A391500BF175F /* DConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				183ACE961B8A391500BF175F /* DConverterTests.m */,
+				183ACE941B8A391500BF175F /* Supporting Files */,
+			);
+			path = DConverterTests;
+			sourceTree = "<group>";
+		};
+		183ACE941B8A391500BF175F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183ACE951B8A391500BF175F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183ACE7C1B8A391500BF175F /* DConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183ACE9A1B8A391500BF175F /* Build configuration list for PBXNativeTarget "DConverter" */;
+			buildPhases = (
+				183ACE791B8A391500BF175F /* Sources */,
+				183ACE7A1B8A391500BF175F /* Frameworks */,
+				183ACE7B1B8A391500BF175F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DConverter;
+			productName = DConverter;
+			productReference = 183ACE7D1B8A391500BF175F /* DConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183ACE8F1B8A391500BF175F /* DConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183ACE9D1B8A391500BF175F /* Build configuration list for PBXNativeTarget "DConverterTests" */;
+			buildPhases = (
+				183ACE8C1B8A391500BF175F /* Sources */,
+				183ACE8D1B8A391500BF175F /* Frameworks */,
+				183ACE8E1B8A391500BF175F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183ACE921B8A391500BF175F /* PBXTargetDependency */,
+			);
+			name = DConverterTests;
+			productName = DConverterTests;
+			productReference = 183ACE901B8A391500BF175F /* DConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183ACE751B8A391500BF175F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Janis Böhm";
+				TargetAttributes = {
+					183ACE7C1B8A391500BF175F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					183ACE8F1B8A391500BF175F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 183ACE7C1B8A391500BF175F;
+					};
+				};
+			};
+			buildConfigurationList = 183ACE781B8A391500BF175F /* Build configuration list for PBXProject "DConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183ACE741B8A391500BF175F;
+			productRefGroup = 183ACE7E1B8A391500BF175F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183ACE7C1B8A391500BF175F /* DConverter */,
+				183ACE8F1B8A391500BF175F /* DConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183ACE7B1B8A391500BF175F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183ACE881B8A391500BF175F /* Images.xcassets in Resources */,
+				183ACE8B1B8A391500BF175F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183ACE8E1B8A391500BF175F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183ACE791B8A391500BF175F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183ACE861B8A391500BF175F /* main.m in Sources */,
+				183ACE841B8A391500BF175F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183ACE8C1B8A391500BF175F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183ACE971B8A391500BF175F /* DConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183ACE921B8A391500BF175F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183ACE7C1B8A391500BF175F /* DConverter */;
+			targetProxy = 183ACE911B8A391500BF175F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183ACE891B8A391500BF175F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183ACE8A1B8A391500BF175F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183ACE981B8A391500BF175F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		183ACE991B8A391500BF175F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		183ACE9B1B8A391500BF175F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183ACE9C1B8A391500BF175F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		183ACE9E1B8A391500BF175F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DConverter.app/Contents/MacOS/DConverter";
+			};
+			name = Debug;
+		};
+		183ACE9F1B8A391500BF175F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DConverter.app/Contents/MacOS/DConverter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183ACE781B8A391500BF175F /* Build configuration list for PBXProject "DConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183ACE981B8A391500BF175F /* Debug */,
+				183ACE991B8A391500BF175F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183ACE9A1B8A391500BF175F /* Build configuration list for PBXNativeTarget "DConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183ACE9B1B8A391500BF175F /* Debug */,
+				183ACE9C1B8A391500BF175F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		183ACE9D1B8A391500BF175F /* Build configuration list for PBXNativeTarget "DConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183ACE9E1B8A391500BF175F /* Debug */,
+				183ACE9F1B8A391500BF175F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183ACE751B8A391500BF175F /* Project object */;
+}
