@@ -100,14 +100,12 @@
     NSString* msg = [[NSString alloc] initWithString:[textField stringValue]];
     NSArray* msg_separated = [msg componentsSeparatedByCharactersInSet:whitespaces];
     NSString* result = @"";
-    NSScanner* scanner;
-    unsigned int b;
+    unsigned long b;
     
     for (int i=0; i < [msg_separated count]; i++) {
         
-        scanner = [NSScanner scannerWithString:[msg_separated objectAtIndex:i]];
-        [scanner scanHexInt:&b];
-        result = [NSString stringWithFormat:@"%@%c",result ,b];
+        b = strtol([[msg_separated objectAtIndex:i] UTF8String], NULL, 16);
+        result = [NSString stringWithFormat:@"%@%c",result ,(int)b];
         
     }
     

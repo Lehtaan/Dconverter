@@ -12,7 +12,7 @@
 		183ACE881B8A391500BF175F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183ACE871B8A391500BF175F /* Images.xcassets */; };
 		183ACE8B1B8A391500BF175F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183ACE891B8A391500BF175F /* MainMenu.xib */; };
 		183ACE971B8A391500BF175F /* DConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACE961B8A391500BF175F /* DConverterTests.m */; };
-		18B73C371B8C1138004D0792 /* build in Resources */ = {isa = PBXBuildFile; fileRef = 18B73C361B8C1138004D0792 /* build */; };
+		18B73C391B8C1834004D0792 /* DConverter.app in Resources */ = {isa = PBXBuildFile; fileRef = 18B73C381B8C1834004D0792 /* DConverter.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 		183ACE901B8A391500BF175F /* DConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183ACE951B8A391500BF175F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183ACE961B8A391500BF175F /* DConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DConverterTests.m; sourceTree = "<group>"; };
-		18B73C361B8C1138004D0792 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = SOURCE_ROOT; };
+		18B73C381B8C1834004D0792 /* DConverter.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = DConverter.app; path = build/Release/DConverter.app; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +60,7 @@
 		183ACE741B8A391500BF175F = {
 			isa = PBXGroup;
 			children = (
+				18B73C381B8C1834004D0792 /* DConverter.app */,
 				183ACE7F1B8A391500BF175F /* DConverter */,
 				183ACE931B8A391500BF175F /* DConverterTests */,
 				183ACE7E1B8A391500BF175F /* Products */,
@@ -80,7 +81,6 @@
 			children = (
 				183ACE821B8A391500BF175F /* AppDelegate.h */,
 				183ACE831B8A391500BF175F /* AppDelegate.m */,
-				18B73C361B8C1138004D0792 /* build */,
 				183ACE871B8A391500BF175F /* Images.xcassets */,
 				183ACE891B8A391500BF175F /* MainMenu.xib */,
 				183ACE801B8A391500BF175F /* Supporting Files */,
@@ -194,8 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B73C371B8C1138004D0792 /* build in Resources */,
 				183ACE881B8A391500BF175F /* Images.xcassets in Resources */,
+				18B73C391B8C1834004D0792 /* DConverter.app in Resources */,
 				183ACE8B1B8A391500BF175F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
