@@ -401,6 +401,7 @@
 				183ACE9C1B8A391500BF175F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183ACE9D1B8A391500BF175F /* Build configuration list for PBXNativeTarget "DConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +410,7 @@
 				183ACE9F1B8A391500BF175F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
